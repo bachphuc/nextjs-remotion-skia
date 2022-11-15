@@ -6,17 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "video": "remotion preview src/remotion/index.ts"
   },
   "dependencies": {
+    "@remotion/cli": "^3.3.0",
+    "@remotion/player": "^3.3.0",
+    "@remotion/skia": "^3.3.0",
+    "@shopify/react-native-skia": "^0.1.158",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
+    "copy-webpack-plugin": "^11.0.0",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.3",
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-native-web": "^0.18.10",
+    "remotion": "^3.3.0",
     "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "node-polyfill-webpack-plugin": "^2.0.1"
   }
 }
